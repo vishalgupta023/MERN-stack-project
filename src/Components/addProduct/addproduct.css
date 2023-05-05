@@ -1,0 +1,26 @@
+.my-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Added to center everything vertically */
+    width: 600px;
+    height: 80vh; /* Added to make form fill entire screen height */
+    margin: 0 auto;
+  }
+  
+  .my-form input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+  }
+
+  
+  .my-form button[type="submit"] {
+    margin-top: 16px;
+    align-self: center;
+  }
+  

@@ -1,0 +1,41 @@
+.footer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .copy {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
